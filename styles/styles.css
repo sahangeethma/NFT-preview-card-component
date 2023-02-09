@@ -1,0 +1,92 @@
+*{margin: 0;padding: 0;}
+
+body{
+    font-family: 'Outfit';
+    background-color: hsl(217, 54%, 11%);
+}
+h2{
+    color:hsl(0, 0%, 100%);
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+span, .price{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+hr{
+    border: none;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin: 20px 0;
+}
+
+.container{
+    height: 98vh;
+    display: flex;
+}
+.card{
+    width: 300px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.head-image{
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.prc-tm{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.price svg, .time svg{
+    margin-right: 5px;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+}
+.avatar img{
+    width: 40px;
+    border: 2px solid #fff;
+    margin-right: 20px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.images{
+    display: flex;
+}
+.view{
+    visibility: hidden;
+    margin: auto;
+    position:absolute;
+    padding: 126px;
+    background-color: hsla(178, 100%, 50%, 0.295);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.images:hover > .view{
+    visibility: visible;
+}
